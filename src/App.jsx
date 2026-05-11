@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <CounterContext.Provider>
+    <CounterContext.Provider value={count}>
     <Navbar/>
       <section id="center">
         <div className="hero">

@@ -1,8 +1,10 @@
 import React from 'react'
+import Compo1  from './Compo1'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>Navbar <Compo1/> </div>
+
   )
 }
 
